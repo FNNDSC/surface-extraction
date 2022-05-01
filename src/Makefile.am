@@ -1,5 +1,5 @@
 bin_PROGRAMS = surface_fit check_self_intersect create_anchor_constraints skel \
-               adapt_object_mesh adapt_metric inflate_to_sphere interpolate_sphere \
+               adapt_object_mesh adapt_metric inflate_to_sphere inflate_to_sphere_implicit interpolate_sphere \
                sphere_mesh surf_surf_interpolate surface_angles
 
 surface_fit_SOURCES = 	evaluate_fit_3d.c \
@@ -19,6 +19,8 @@ adapt_metric_SOURCES = adapt_sphere_metric.c \
                        octree.c
 
 inflate_to_sphere_SOURCES = inflate_to_sphere.c
+
+inflate_to_sphere_implicit_SOURCES = inflate_to_sphere_implicit.c
 
 interpolate_sphere_SOURCES = interpolate_sphere.c \
                              octree.c

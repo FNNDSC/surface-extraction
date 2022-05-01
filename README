@@ -1,3 +1,8 @@
+WARNING: this fork contains code from Claude's private devel repository
+to provide the program inflate_to_sphere_implicit. The official open-source
+release of inflate_to_sphere_implicit will come with the next public version
+of CIVET as part of surface-extraction version 3.0.4.
+
 The surface-extraction package
 ------------------------------
 
